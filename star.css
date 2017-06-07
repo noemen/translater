@@ -1,0 +1,117 @@
+.rating {
+	list-style-type: none;
+	width: 75px;
+	height: 20px;
+	background-image: url(.https://raw.githubusercontent.com/noemen/star/966af50c537950cabbcd97c2f3a75fefa016e3d4/the-star.svg);
+	background-size: 15px;
+	background-repeat: repeat-x;
+	background-position: left; /* fill: #ccc; */
+	position: relative;
+ }
+ 
+	.rating .fillage {
+		position: absolute;
+		left: 0;
+		top: 0;
+		bottom: 0;
+		background-image: url(https://raw.githubusercontent.com/noemen/star/master/the-star-filled.svg);
+		background-size: 15px;
+		background-repeat: repeat-x;
+		background-position: left;
+	 }
+ 
+	.rating li {
+		display: inline-block;
+		vertical-align: middle;
+		display: none;
+	 }
+ 
+		.rating li .svg-star {
+			width: 10px;
+			height: 10px;
+			fill: #e1e1e1;
+		 }
+ 
+		.rating li.filled {margin-right: 2px;}
+ 
+			.rating li.filled .svg-star {
+				width: 10px;
+				height: 10px;
+				fill: #ffa714;
+			 }
+ 
+
+.review-cont .comment-flex {
+		padding: 10px 0;
+		margin: 10px 0;
+		margin: 10px -20px;
+		border-top: 1px solid #e2e2e2;
+		border-bottom: 1px solid #e2e2e2;
+	 }
+ 
+		.review-cont .comment-flex > div {
+			float: left;
+			width: 33.33%;
+			text-align: center;
+			border-right: 1px solid #efefef;
+		 }
+ 
+			.review-cont .comment-flex > div span {font-size: 18px;}
+ 
+		.review-cont .comment-flex span.count {font-size: 30px;}
+ 
+		.review-cont .comment-flex .star {color: #FFA714;}
+ 
+			.review-cont .comment-flex .star .rating {
+				margin-left: auto;
+				margin-right: auto;
+			 }
+ 
+		.review-cont .comment-flex .good-com {color: #a4c639;}
+ 
+		.review-cont .comment-flex .bad-com {
+			color: #D80027;
+			border-right: none;
+		 }
+
+.rating {
+	list-style-type: none;
+	width: 75px;
+	height: 20px;
+	background-image: url(../images/the-star.svg);
+	background-size: 15px;
+	background-repeat: repeat-x;
+	background-position: left; /* fill: #ccc; */
+	position: relative;
+ }
+ 
+	.rating .fillage {
+		position: absolute;
+		left: 0;
+		top: 0;
+		bottom: 0;
+		background-image: url(../images/the-star-filled.svg);
+		background-size: 15px;
+		background-repeat: repeat-x;
+		background-position: left;
+	 }
+ 
+	.rating li {
+		display: inline-block;
+		vertical-align: middle;
+		display: none;
+	 }
+ 
+		.rating li .svg-star {
+			width: 10px;
+			height: 10px;
+			fill: #e1e1e1;
+		 }
+ 
+		.rating li.filled {margin-right: 2px;}
+ 
+			.rating li.filled .svg-star {
+				width: 10px;
+				height: 10px;
+				fill: #ffa714;
+			 }
